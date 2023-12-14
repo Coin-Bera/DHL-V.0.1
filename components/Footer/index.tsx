@@ -8,6 +8,12 @@ import Socials from "@/components/Socials";
 import { footerNavigation, documents } from "@/constants/navigation";
 import { socials } from "@/constants/socials";
 
+type FooterLink = {
+  title: string;
+  url: string;
+  external?: boolean;
+};
+
 type FooterProps = {};
 
 const Footer = ({}: FooterProps) => (
@@ -16,7 +22,7 @@ const Footer = ({}: FooterProps) => (
             <div className={styles.row}>
                 <Logo className={styles.logo} />
                 <div className={styles.menu}>
-                    {footerNavigation.map((link, index) =>
+                    {footerNavigation.map((link: FooterLink, index) => // Ensure link is of type FooterLink
                         link.external ? (
                             <a
                                 className={styles.link}
