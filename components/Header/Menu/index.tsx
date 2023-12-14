@@ -74,8 +74,8 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
       </button>
       {loaded &&
         createPortal(
+        // @ts-ignore
           <CSSTransition
-            // @ts-ignore
             classNames="menu"
             in={visible}
             timeout={400}
