@@ -9,7 +9,7 @@ import Statistics from "./Statistics";
 // import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
 import LogoMarquee from "@/components/LogoMarquee"; // Import the LogoMarquee component
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // import { posts } from "@/mocks/posts";
 // import { reviews } from "@/mocks/reviews";
 
@@ -31,6 +31,7 @@ const HomePage = () => {
 
     return (
         <Layout>
+            <SpeedInsights/>
             <Main scrollToRef={scrollToRef} />
             <Statistics />
             <Development scrollToRef={scrollToRef} />
