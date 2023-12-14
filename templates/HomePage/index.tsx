@@ -18,11 +18,11 @@ const HomePage = () => {
     // Define your logos here
     const logos = [
         "/images/coinbase.png",
-        "/images/delphi.svg",
         "/images/okx.png",
-        "/images/sequoia.png",
-        "/images/polychain.png",
         "/images/shima.png",
+        "/images/polychain.png",
+        "/images/delphi.svg",
+        "/images/sequoia.png",
         "/images/steelperlot.png",
         "/images/tribe.svg",
         // Add more logo paths here
