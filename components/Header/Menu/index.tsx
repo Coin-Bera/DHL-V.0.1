@@ -72,21 +72,20 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
           />
         </svg>
       </button>
-      {loaded
-        ? createPortal(
-            (
-              <CSSTransition
-                classNames="menu"
-                in={visible}
-                timeout={400}
-                nodeRef={ref}
-                unmountOnExit
-              >
-                {<div
-                className={cn(styles.menu)}
-                onClick={() => setVisible(false)}
-                ref={ref}
-              >
+      {loaded &&
+        createPortal(
+          <CSSTransition
+            classNames="menu"
+            in={visible}
+            timeout={400}
+            nodeRef={ref}
+            unmountOnExit
+          >
+            <div
+              className={cn(styles.menu)}
+              onClick={() => setVisible(false)}
+              ref={ref}
+            >
                 <div
                   className={cn("menu-container", styles.container)}
                   onClick={(e) => e.stopPropagation()}
@@ -138,12 +137,10 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
                     />
                   </div>
                 </div>
-              </div>}
-              </CSSTransition>
-            ) as ReactNode,
-            document.body
-          )
-        : null}
+            </div>
+          </CSSTransition>,
+          document.body
+        ) as ReactNode}
     </div>
   );
 };
