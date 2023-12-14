@@ -140,7 +140,7 @@ const Menu = ({ navigation, socials, onClick }: MenuProps) => {
             </div>
           </CSSTransition>,
           document.body
-        ) as ReactNode}
+        ) as React.ReactPortal}
     </div>
   );
 };
