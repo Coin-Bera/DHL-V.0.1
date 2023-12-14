@@ -35,11 +35,11 @@ const Header = ({}: HeaderProps) => {
             >   {/*@ts-ignore*/}
                 <Logo className={styles.logo} />
                 {/*@ts-ignore*/}
-                <Menu
+                {/* <Menu
                     navigation={headerNavigation}
                     socials={socials}
                     onClick={() => setOpen(!open)}
-                />
+                /> */}
                 <a
                     className={cn("button", styles.button)}
                     href="/contact"
