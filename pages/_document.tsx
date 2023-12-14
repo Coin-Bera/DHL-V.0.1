@@ -36,7 +36,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/ui8/products/onix-blockchain-landing-page-ui-design-kit"
+                        content="https://careers.devhouselabs.io/"
                     />
                     <meta
                         property="og:site_name"
@@ -56,8 +56,8 @@ class MyDocument extends Document {
                     />
                     <meta property="og:type" content="Article" />
                     <meta content="summary" name="twitter:card" />
-                    <meta name="twitter:site" content="@ui8" />
-                    <meta name="twitter:creator" content="@ui8" />
+                    <meta name="twitter:site" content="@DevHouseLabs" />
+                    <meta name="twitter:creator" content="@DevHouseLabs" />
                     <meta property="fb:admins" content="132951670226590" />
                     <meta
                         name="viewport"

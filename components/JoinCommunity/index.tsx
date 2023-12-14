@@ -21,7 +21,7 @@ const JoinCommunity = ({ title }: JoinCommunityProps) => (
             <div className={styles.wrap}>
                 <div className={cn("h2", styles.title)}>{title}</div>
                 <div className={styles.info}>
-                    Checkout our job board, and, join us in our mission to make web3 accessible for all {" "}
+                    Checkout our job board, and, join us in our mission to make web3 accessible {" "}
                     {/* <a
                         className={styles.social}
                         href="/"
