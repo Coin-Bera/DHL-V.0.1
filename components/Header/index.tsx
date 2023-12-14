@@ -3,7 +3,7 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import cn from "classnames";
 import styles from "./Header.module.sass";
 import Logo from "@/components/Logo";
-import Menu from "./Menu";
+// import Menu from "./Menu";
 
 import { headerNavigation } from "@/constants/navigation";
 import { socials } from "@/constants/socials";
