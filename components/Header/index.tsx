@@ -32,8 +32,9 @@ const Header = ({}: HeaderProps) => {
                 className={cn("container-wide", styles.container)}
                 data-scroll-lock-scrollable
                 data-scroll-lock-fill-gap
-            >
+            >   {/*@ts-ignore*/}
                 <Logo className={styles.logo} />
+                {/*@ts-ignore*/}
                 <Menu
                     navigation={headerNavigation}
                     socials={socials}

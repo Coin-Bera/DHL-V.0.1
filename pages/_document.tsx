@@ -14,7 +14,9 @@ class MyDocument extends Document {
 
     render() {
         return (
+            // @ts-ignore
             <Html>
+                {/* @ts-ignore */}
                 <Head>
                     <meta
                         content="Epic landing page UI Design Kit for Blockchain, Crypto"
@@ -70,7 +72,9 @@ class MyDocument extends Document {
                     />
                 </Head>
                 <body className="app">
+                    {/* @ts-ignore */}
                     <Main />
+                    {/* @ts-ignore */}
                     <NextScript />
                 </body>
             </Html>

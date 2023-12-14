@@ -4,7 +4,9 @@ import "../styles/app.sass";
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
+        // @ts-ignore
         <ParallaxProvider>
+            {/* @ts-ignore */}
             <Component {...pageProps} />
         </ParallaxProvider>
     );
