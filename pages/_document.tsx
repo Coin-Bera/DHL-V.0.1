@@ -19,15 +19,15 @@ class MyDocument extends Document {
                 {/* @ts-ignore */}
                 <Head>
                     <meta
-                        content="Epic landing page UI Design Kit for Blockchain, Crypto"
-                        name="DHL Blockchain Landing Page UI Design Kit"
+                        content="Transform your ideas into cutting-edge digital solutions."
+                        name="Dev House Labs"
                     />
                     <meta
-                        content="DHL Blockchain Landing Page UI Design Kit"
+                        content="Transform your ideas into cutting-edge digital solutions."
                         property="og:title"
                     />
                     <meta
-                        content="Epic landing page UI Design Kit for Blockchain, Crypto"
+                        content="Transform your ideas into cutting-edge digital solutions."
                         property="og:description"
                     />
                     <meta
@@ -40,14 +40,14 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:site_name"
-                        content="DHL Blockchain Landing Page UI Design Kit"
+                        content="Dev House Labs"
                     />
                     <meta
-                        content="DHL Blockchain Landing Page UI Design Kit"
+                        content="Dev House Labs"
                         property="twitter:title"
                     />
                     <meta
-                        content="Epic landing page UI Design Kit for Blockchain, Crypto"
+                        content="Transform your ideas into cutting-edge digital solutions."
                         property="twitter:description"
                     />
                     <meta

@@ -4,16 +4,30 @@ import Main from "./Main";
 import Development from "./Development";
 import AboutUs from "./AboutUs";
 import Statistics from "./Statistics";
-import Solutions from "./Solutions";
-import Posts from "@/components/Posts";
-import Reviews from "@/components/Reviews";
+// import Solutions from "./Solutions";
+// import Posts from "@/components/Posts";
+// import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
+import LogoMarquee from "@/components/LogoMarquee"; // Import the LogoMarquee component
 
-import { posts } from "@/mocks/posts";
-import { reviews } from "@/mocks/reviews";
+// import { posts } from "@/mocks/posts";
+// import { reviews } from "@/mocks/reviews";
 
 const HomePage = () => {
     const scrollToRef = useRef(null);
+
+    // Define your logos here
+    const logos = [
+        "/images/coinbase.png",
+        "/images/delphi.svg",
+        "/images/okx.png",
+        "/images/sequoia.png",
+        "/images/polychain.png",
+        "/images/shima.png",
+        "/images/steelperlot.png",
+        "/images/tribe.svg",
+        // Add more logo paths here
+    ];
 
     return (
         <Layout>
@@ -29,6 +43,9 @@ const HomePage = () => {
                 posts={posts}
             /> */}
             {/* <Reviews reviews={reviews} /> */}
+            <div style={{ padding: '200px 0' }}>
+                <LogoMarquee logos={logos} />
+            </div>
             <JoinCommunity title="We're Hiring!" />
         </Layout>
     );
