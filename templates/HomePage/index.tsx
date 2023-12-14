@@ -28,7 +28,7 @@ const HomePage = () => {
                 info="Stay current on the latest Dev House Labs project developments, news, and content, updated daily."
                 posts={posts}
             /> */}
-            <Reviews reviews={reviews} />
+            {/* <Reviews reviews={reviews} /> */}
             <JoinCommunity title="We're Hiring!" />
         </Layout>
     );
