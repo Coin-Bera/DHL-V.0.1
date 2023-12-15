@@ -8,7 +8,7 @@ import Statistics from "./Statistics";
 // import Posts from "@/components/Posts";
 // import Reviews from "@/components/Reviews";
 import JoinCommunity from "@/components/JoinCommunity";
-import LogoMarquee from "@/components/LogoMarquee"; // Import the LogoMarquee component
+import LogoMarquee from "@/components/LogoMarquee";
 // import { posts } from "@/mocks/posts";
 // import { reviews } from "@/mocks/reviews";
 

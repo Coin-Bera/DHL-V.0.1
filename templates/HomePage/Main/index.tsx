@@ -26,7 +26,7 @@ const Main = ({ scrollToRef }: MainProps) => (
                     Dev House Labs.
                 </div>
                 <div className={styles.info}>
-                At Dev House Labs, we transform your ideas <br />into cutting-edge digital solutions.
+                We transform your ideas into cutting-edge digital solutions.
                 </div>
             </div>
             <div className={styles.images}>

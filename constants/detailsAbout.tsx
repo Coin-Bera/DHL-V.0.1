@@ -40,7 +40,7 @@ export const details = [
                     needed for Web3.
                 </p>
                 <p>
-                    We believe in Web3 for all and aspire to to build decentralised
+                    We believe in Web3 for all and aspire to build decentralised
                     blockchain scaling platforms that enable developers to build
                     scalable user-friendly dApps with low transaction fees
                     without ever sacrificing on security.
