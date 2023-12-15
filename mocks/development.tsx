@@ -1,6 +1,6 @@
 export const development = [
     {
-        title: "Globally-accesible.",
+        title: "Accesible",
         content:
             "Access your data from anywhere in the world. Our solutions ensure that your information is available and ready for global collaboration and integration.",
         image: "/images/development-pic-1.png",
@@ -8,7 +8,7 @@ export const development = [
         url: "/technology",
     },
     {
-        title: "Resilient.",
+        title: "Resilient",
         content:
             "systems are designed for robustness, ensuring that your blockchain remains secure and efficient, even under demanding conditions.",
         image: "/images/development-pic-2.png",
