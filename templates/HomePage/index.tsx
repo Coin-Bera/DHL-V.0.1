@@ -42,7 +42,7 @@ const HomePage = () => {
                 posts={posts}
             /> */}
             {/* <Reviews reviews={reviews} /> */}
-            <div style={{ padding: '200px 0' }}>
+            <div style={{ padding: '200px 0', backgroundColor: '#362535' }}>
                 <LogoMarquee logos={logos} />
             </div>
             <JoinCommunity title="We're Hiring!" />

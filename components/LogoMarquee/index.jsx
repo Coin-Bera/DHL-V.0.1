@@ -13,7 +13,7 @@ const LogoMarquee = ({ logos }) => {
 
     return (
         <div>
-            <h4 style={{ textAlign: 'center', margin: '20px 0', color: '#333434' }}>Our partners are backed by the best</h4>
+            <p style={{ textAlign: 'center', margin: '20px 0', color: '#6D5A76' }}>OUR PARTNERS ARE BACKED BY THE BEST</p>
             <div className="logo-marquee-container" style={containerStyle}>
                 {logos.map((logo, index) => (
                     <div key={index} style={{ flex: '1 0 auto', maxWidth: '160px' }}>
