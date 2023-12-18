@@ -53,9 +53,9 @@ const JoinCommunity = ({ title }: JoinCommunityProps) => (
             {images.map((image, index) => (
                 <Parallax
                     className={styles.image}
-                    speed={1}
+                    speed={2}
                     easing="easeInQuad"
-                    rotate={index === 2 ? [2, -20] : [-4, 15]}
+                    rotate={index === 2 ? [20, -40] : [-16, 60]}
                     key={index}
                 >
                     <Image src={image} layout="fill" alt="Figure" />
